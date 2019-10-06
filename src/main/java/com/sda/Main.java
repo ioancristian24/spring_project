@@ -10,6 +10,7 @@ public class Main {
 
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(DependencyConfig.class);
         EntryPoints entryPoints = applicationContext.getBean(EntryPoints.class);
-        entryPoints.execute();
+        entryPoints.executeStudent();
+        entryPoints.executeTeacher();
     }
 }
