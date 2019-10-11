@@ -23,4 +23,20 @@ public class StudentRepo {
         getStudentDao().addStudent(student);
     }
 
+    public Student readStudent(Integer id) {
+        System.out.println("Am ajuns in clasa StudentRepo");
+        Student student = getStudentDao().displayStudentById(id);
+        return student;
+    }
+
+    public Student modifyStudent(Integer id, Integer average_grade){
+        System.out.println("Am ajuns in clasa StudentRepo");
+        Student student = getStudentDao().updateStudentById(id, average_grade);
+        return student;
+    }
+
+    public void deleteStudent(Integer id){
+        System.out.println("Am ajuns in clasa StudentRepo");
+        getStudentDao().deleteStudentById(id);
+    }
 }

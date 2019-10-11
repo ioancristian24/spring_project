@@ -22,4 +22,21 @@ public class TeacherRepo {
         System.out.println("Am ajuns in clasa TeacherRepo");
         getTeacherDao().addTeacher(teacher);
     }
+
+    public Teacher readTeacher(Integer id){
+        System.out.println("Am ajuns in clasa TeacherRepo");
+        Teacher teacher = getTeacherDao().displayTeacherById(id);
+        return teacher;
+    }
+
+    public Teacher modifyTeacher(Integer id, String discipline){
+        System.out.println("Am ajuns in clasa TeacherRepo");
+        Teacher teacher = getTeacherDao().updateTeacherById(id, discipline);
+        return teacher;
+    }
+
+    public void deleteTeacher(Integer id){
+        System.out.println("Am ajuns in clasa TeacherRepo");
+        getTeacherDao().deleteTeacherById(id);
+    }
 }

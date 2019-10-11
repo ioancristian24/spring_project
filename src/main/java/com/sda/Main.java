@@ -10,7 +10,14 @@ public class Main {
 
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(DependencyConfig.class);
         EntryPoints entryPoints = applicationContext.getBean(EntryPoints.class);
-        entryPoints.executeStudent();
-        entryPoints.executeTeacher();
+        //entryPoints.executeStudent();
+        //entryPoints.fetchStudent(2);
+        //entryPoints.updateStudent(7,4);
+        //entryPoints.removeStudent(8);
+
+        //entryPoints.executeTeacher();
+        //entryPoints.fetchTeacher(1);
+        //entryPoints.updateTeacher(2,"English");
+        //entryPoints.removeTeacher(5);
     }
 }

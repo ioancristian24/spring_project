@@ -2,16 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3623311-15f7-4a24-9bb5-515c6e86b09d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/dao/TeacherDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/dao/implementation/TeacherDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EntryPoints.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/dao/StudentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/dao/StudentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/dao/TeacherDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/dao/TeacherDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/dao/implementation/StudentDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/dao/implementation/StudentDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/dao/implementation/TeacherDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/dao/implementation/TeacherDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/entryPoints/EntryPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/entryPoints/EntryPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/repo/StudentRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/repo/StudentRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/repo/TeacherRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/repo/TeacherRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/service/implementation/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/service/implementation/StudentServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/service/implementation/TeacherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/service/implementation/TeacherServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sda/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/dao/StudentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/dao/StudentDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/dao/TeacherDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/dao/TeacherDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/dao/implementation/StudentDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/dao/implementation/StudentDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/dao/implementation/TeacherDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/dao/implementation/TeacherDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sda/entryPoints/EntryPoints.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/entryPoints/EntryPoints.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/repo/StudentRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/repo/StudentRepo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sda/repo/TeacherRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/repo/TeacherRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/service/implementation/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/service/implementation/StudentServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sda/service/implementation/TeacherServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/service/implementation/TeacherServiceImpl.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,6 +34,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,6 +49,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Cristian\Desktop\SDA_Projects\SDA_Projects\spring_project\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -41,6 +66,7 @@
   <component name="ProjectId" id="1Rp4OcOPpYQZi5K0XNxQeZV9jIX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/sda" />
@@ -60,7 +86,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.EntryPoints.testExecuteStudent">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.Main" />
       <module name="spring_project" />
@@ -74,11 +100,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EntryPoints.testExecuteStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EntryPoints" />
+      <option name="METHOD_NAME" value="testExecuteStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EntryPoints.testExecuteStudent" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SpringBeansView">
+    <option name="showFilesets" value="false" />
+    <option name="showImplicitBeans" value="false" />
+    <option name="showInfrastructureBeans" value="false" />
+    <option name="showDoc" value="false" />
+    <option name="showGraph" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -90,7 +134,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570350673039</updated>
-      <workItem from="1570350678708" duration="14524000" />
+      <workItem from="1570350678708" duration="14783000" />
+      <workItem from="1570559153205" duration="8711000" />
+      <workItem from="1570647558446" duration="9085000" />
     </task>
     <servers />
   </component>
@@ -102,7 +148,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
