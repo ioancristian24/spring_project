@@ -20,6 +20,14 @@ public class Student {
     @Column(name = "averagegrade")
     private Integer average_grade;
 
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumns({@JoinColumn(name = "locker_id", referencedColumnName = "id")})
+    private Locker lockerId;
+
+
+    public Student() {
+    }
+
     public Integer getId() {
         return id;
     }
@@ -52,6 +60,14 @@ public class Student {
         this.average_grade = average_grade;
     }
 
+    public Locker getLockerId() {
+        return lockerId;
+    }
+
+    public void setLockerId(Locker lockerId) {
+        this.lockerId = lockerId;
+    }
+
     @Override
     public String toString() {
         return "Student{" +
@@ -59,6 +75,7 @@ public class Student {
                 ", name='" + name + '\'' +
                 ", age=" + age +
                 ", average_grade=" + average_grade +
+                ", lockerId=" + lockerId +
                 '}';
     }
 }

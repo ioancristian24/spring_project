@@ -19,5 +19,10 @@ public class Main {
         //entryPoints.fetchTeacher(1);
         //entryPoints.updateTeacher(2,"English");
         //entryPoints.removeTeacher(5);
+
+        //entryPoints.executeLocker();
+        //entryPoints.fetchLocker(1);
+        //entryPoints.updateLocker(2,5);
+        entryPoints.removeLocker(3);
     }
 }

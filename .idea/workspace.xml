@@ -2,32 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3623311-15f7-4a24-9bb5-515c6e86b09d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EntryPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/dao/GroupssDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/dao/LockerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/dao/implementation/GroupssDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/dao/implementation/LockerDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/entities/Groupss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/entities/Locker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/repo/GroupssRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/repo/LockerRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/service/implementation/GroupssServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/service/implementation/LockerServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/dao/StudentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/dao/StudentDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/dao/TeacherDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/dao/TeacherDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/dao/implementation/StudentDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/dao/implementation/StudentDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/dao/implementation/TeacherDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/dao/implementation/TeacherDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/entities/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/entities/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/entryPoints/EntryPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/entryPoints/EntryPoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/repo/StudentRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/repo/StudentRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/repo/TeacherRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/repo/TeacherRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/service/implementation/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/service/implementation/StudentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/service/implementation/TeacherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/service/implementation/TeacherServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EntryPoints.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sda/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/dao/StudentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/dao/StudentDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/dao/TeacherDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/dao/TeacherDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/dao/implementation/StudentDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/dao/implementation/StudentDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/dao/implementation/TeacherDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/dao/implementation/TeacherDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/entities/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/entities/Student.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sda/entryPoints/EntryPoints.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/entryPoints/EntryPoints.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/repo/StudentRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/repo/StudentRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/repo/TeacherRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/repo/TeacherRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/service/implementation/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/service/implementation/StudentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/service/implementation/TeacherServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/service/implementation/TeacherServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/EntryPoints.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +81,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EntryPoints.testExecuteStudent">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.Main" />
       <module name="spring_project" />
@@ -112,8 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EntryPoints.testExecuteStudent" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.EntryPoints.testExecuteStudent" />
       </list>
     </recent_temporary>
   </component>
@@ -137,6 +132,7 @@
       <workItem from="1570350678708" duration="14783000" />
       <workItem from="1570559153205" duration="8711000" />
       <workItem from="1570647558446" duration="9085000" />
+      <workItem from="1570769261900" duration="9366000" />
     </task>
     <servers />
   </component>

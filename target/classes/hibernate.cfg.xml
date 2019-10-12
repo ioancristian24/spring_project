@@ -13,6 +13,8 @@
 
         <mapping class="com.sda.entities.Student"/>
         <mapping class="com.sda.entities.Teacher"/>
+        <mapping class="com.sda.entities.Locker"/>
+        <mapping class="com.sda.entities.Groupss"/>
 
     </session-factory>
 </hibernate-configuration>
